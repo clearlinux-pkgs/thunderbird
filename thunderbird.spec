@@ -1,6 +1,6 @@
 Name     : thunderbird
 Version  : 38.7.2
-Release  : 1
+Release  : 2
 URL      : http://ftp.mozilla.org/pub/thunderbird/releases/38.7.2/linux-x86_64/en-US/thunderbird-38.7.2.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/thunderbird/releases/38.7.2/linux-x86_64/en-US/thunderbird-38.7.2.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/thunderbird/releases/38.7.2/source/thunderbird-38.7.2.source.tar.bz2
