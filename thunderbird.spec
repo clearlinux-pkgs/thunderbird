@@ -1,6 +1,6 @@
 Name     : thunderbird
 Version  : 45.0
-Release  : 2
+Release  : 3
 URL      : http://ftp.mozilla.org/pub/thunderbird/releases/45.0/linux-x86_64/en-US/thunderbird-45.0.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/thunderbird/releases/45.0/linux-x86_64/en-US/thunderbird-45.0.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/thunderbird/releases/45.0/source/thunderbird-45.0.source.tar.bz2
