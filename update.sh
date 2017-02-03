@@ -12,4 +12,4 @@ make generateupstream || exit 1
 
 git add thunderbird.spec Makefile release upstream
 git commit -s -m "Update to ${VERSION}"
-make bump
+#make bump
