@@ -1,9 +1,9 @@
 Name     : thunderbird
-Version  : 45.7.0
+Version  : 45.7.1
 Release  : 1
-URL      : http://ftp.mozilla.org/pub/thunderbird/releases/45.7.0/linux-x86_64/en-US/thunderbird-45.7.0.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/thunderbird/releases/45.7.0/linux-x86_64/en-US/thunderbird-45.7.0.tar.bz2
-Source1  : http://ftp.mozilla.org/pub/thunderbird/releases/45.7.0/source/thunderbird-45.7.0.source.tar.bz2
+URL      : http://ftp.mozilla.org/pub/thunderbird/releases/45.7.1/linux-x86_64/en-US/thunderbird-45.7.1.tar.bz2
+Source0  : http://ftp.mozilla.org/pub/thunderbird/releases/45.7.1/linux-x86_64/en-US/thunderbird-45.7.1.tar.bz2
+Source1  : http://ftp.mozilla.org/pub/thunderbird/releases/45.7.1/source/thunderbird-45.7.1.source.tar.bz2
 Source2  : thunderbird.desktop
 Source3  : thunderbird.sh
 Summary  : Thunderbird mail client
