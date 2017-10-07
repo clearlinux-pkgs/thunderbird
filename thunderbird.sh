@@ -2,7 +2,7 @@
 
 VERSION="##VERSION##"
 BASEDIR="/usr/share/thunderbird-stub"
-SFILE="${BASEDIR}/thunderbird-${VERSION}.tar.bz2"
+SFILE="${BASEDIR}/thunderbird-${VERSION}.tar.gz"
 LFILE="${HOME}/thunderbird/thunderbird"
 FDIR="${HOME}/thunderbird"
 

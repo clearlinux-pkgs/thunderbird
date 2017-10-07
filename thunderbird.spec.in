@@ -18,7 +18,9 @@ Stub package to assist with installation of Mozilla Thunderbird Email Client
 
 %install
 rm -rf %{buildroot}
-install -D -m 00644 %{SOURCE0} %{buildroot}/usr/share/thunderbird-stub/thunderbird-%{version}.tar.bz2
+mkdir -p  %{buildroot}/usr/share/thunderbird-stub/
+bunzip2 -c %{SOURCE0} | gzip --rsyncable --stdout > %{buildroot}/usr/share/thunderbird-stub/thunderbird-%{version}.tar.gz
+
 
 # Desktop launcher
 install -D -m 00644 %{SOURCE2} %{buildroot}/usr/share/applications/thunderbird.desktop
@@ -32,5 +34,5 @@ sed -i %{buildroot}/usr/bin/thunderbird -e 's/\#\#VERSION\#\#/%{version}/g'
 %files
 %defattr(-,root,root,-)
 /usr/bin/thunderbird
-/usr/share/thunderbird-stub/thunderbird-%{version}.tar.bz2
+/usr/share/thunderbird-stub/thunderbird-%{version}.tar.gz
 /usr/share/applications/thunderbird.desktop
