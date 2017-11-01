@@ -1,6 +1,6 @@
 Name     : thunderbird
 Version  : 52.4.0
-Release  : 2
+Release  : 1
 URL      : http://ftp.mozilla.org/pub/thunderbird/releases/52.4.0/linux-x86_64/en-US/thunderbird-52.4.0.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/thunderbird/releases/52.4.0/linux-x86_64/en-US/thunderbird-52.4.0.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/thunderbird/releases/52.4.0/source/thunderbird-52.4.0.source.tar.bz2
@@ -19,7 +19,7 @@ Stub package to assist with installation of Mozilla Thunderbird Email Client
 %install
 rm -rf %{buildroot}
 mkdir -p  %{buildroot}/usr/share/thunderbird-stub/
-bunzip2 -c %{SOURCE0} | gzip --rsyncable --stdout > %{buildroot}/usr/share/thunderbird-stub/thunderbird-%{version}.tar.gz
+bunzip2 -c %{SOURCE0} > %{buildroot}/usr/share/thunderbird-stub/thunderbird-%{version}.tar
 
 
 # Desktop launcher
