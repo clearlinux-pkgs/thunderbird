@@ -34,5 +34,5 @@ sed -i %{buildroot}/usr/bin/thunderbird -e 's/\#\#VERSION\#\#/%{version}/g'
 %files
 %defattr(-,root,root,-)
 /usr/bin/thunderbird
-/usr/share/thunderbird-stub/thunderbird-%{version}.tar.gz
+/usr/share/thunderbird-stub/thunderbird-%{version}.tar
 /usr/share/applications/thunderbird.desktop
