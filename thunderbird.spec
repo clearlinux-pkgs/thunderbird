@@ -1,9 +1,9 @@
 Name     : thunderbird
-Version  : 52.4.0
-Release  : 4
-URL      : http://ftp.mozilla.org/pub/thunderbird/releases/52.4.0/linux-x86_64/en-US/thunderbird-52.4.0.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/thunderbird/releases/52.4.0/linux-x86_64/en-US/thunderbird-52.4.0.tar.bz2
-Source1  : http://ftp.mozilla.org/pub/thunderbird/releases/52.4.0/source/thunderbird-52.4.0.source.tar.bz2
+Version  : 52.5.0
+Release  : 1
+URL      : http://ftp.mozilla.org/pub/thunderbird/releases/52.5.0/linux-x86_64/en-US/thunderbird-52.5.0.tar.bz2
+Source0  : http://ftp.mozilla.org/pub/thunderbird/releases/52.5.0/linux-x86_64/en-US/thunderbird-52.5.0.tar.bz2
+Source1  : http://ftp.mozilla.org/pub/thunderbird/releases/52.5.0/source/thunderbird-52.5.0.source.tar.bz2
 Source2  : thunderbird.desktop
 Source3  : thunderbird.sh
 Summary  : Thunderbird mail client
