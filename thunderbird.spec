@@ -1,9 +1,9 @@
 Name     : thunderbird
-Version  : 60.7.1
-Release  : 2
-URL      : http://ftp.mozilla.org/pub/thunderbird/releases/60.7.1/linux-x86_64/en-US/thunderbird-60.7.1.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/thunderbird/releases/60.7.1/linux-x86_64/en-US/thunderbird-60.7.1.tar.bz2
-Source1  : http://ftp.mozilla.org/pub/thunderbird/releases/60.7.1/source/thunderbird-60.7.1.source.tar.xz
+Version  : 60.7.2
+Release  : 1
+URL      : http://ftp.mozilla.org/pub/thunderbird/releases/60.7.2/linux-x86_64/en-US/thunderbird-60.7.2.tar.bz2
+Source0  : http://ftp.mozilla.org/pub/thunderbird/releases/60.7.2/linux-x86_64/en-US/thunderbird-60.7.2.tar.bz2
+Source1  : http://ftp.mozilla.org/pub/thunderbird/releases/60.7.2/source/thunderbird-60.7.2.source.tar.xz
 Source2  : thunderbird.desktop
 Source3  : thunderbird.sh
 Summary  : Thunderbird mail client
