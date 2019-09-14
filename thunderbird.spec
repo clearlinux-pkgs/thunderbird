@@ -1,6 +1,6 @@
 Name     : thunderbird
 Version  : 68.1.0
-Release  : 1
+Release  : 2
 URL      : http://ftp.mozilla.org/pub/thunderbird/releases/68.1.0/linux-x86_64/en-US/thunderbird-68.1.0.tar.bz2
 Source0  : http://ftp.mozilla.org/pub/thunderbird/releases/68.1.0/linux-x86_64/en-US/thunderbird-68.1.0.tar.bz2
 Source1  : http://ftp.mozilla.org/pub/thunderbird/releases/68.1.0/source/thunderbird-68.1.0.source.tar.xz
