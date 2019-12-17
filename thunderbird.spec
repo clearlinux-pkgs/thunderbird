@@ -1,9 +1,9 @@
 Name     : thunderbird
-Version  : 68.3.0
+Version  : 68.3.1
 Release  : 1
-URL      : http://ftp.mozilla.org/pub/thunderbird/releases/68.3.0/linux-x86_64/en-US/thunderbird-68.3.0.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/thunderbird/releases/68.3.0/linux-x86_64/en-US/thunderbird-68.3.0.tar.bz2
-Source1  : http://ftp.mozilla.org/pub/thunderbird/releases/68.3.0/source/thunderbird-68.3.0.source.tar.xz
+URL      : http://ftp.mozilla.org/pub/thunderbird/releases/68.3.1/linux-x86_64/en-US/thunderbird-68.3.1.tar.bz2
+Source0  : http://ftp.mozilla.org/pub/thunderbird/releases/68.3.1/linux-x86_64/en-US/thunderbird-68.3.1.tar.bz2
+Source1  : http://ftp.mozilla.org/pub/thunderbird/releases/68.3.1/source/thunderbird-68.3.1.source.tar.xz
 Source2  : thunderbird.desktop
 Source3  : thunderbird.sh
 Summary  : Thunderbird mail client
