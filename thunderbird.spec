@@ -1,9 +1,9 @@
 Name     : thunderbird
-Version  : 78.3.3
+Version  : 78.4.0
 Release  : 2
-URL      : http://ftp.mozilla.org/pub/thunderbird/releases/78.3.3/linux-x86_64/en-US/thunderbird-78.3.3.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/thunderbird/releases/78.3.3/linux-x86_64/en-US/thunderbird-78.3.3.tar.bz2
-Source1  : http://ftp.mozilla.org/pub/thunderbird/releases/78.3.3/source/thunderbird-78.3.3.source.tar.xz
+URL      : http://ftp.mozilla.org/pub/thunderbird/releases/78.4.0/linux-x86_64/en-US/thunderbird-78.4.0.tar.bz2
+Source0  : http://ftp.mozilla.org/pub/thunderbird/releases/78.4.0/linux-x86_64/en-US/thunderbird-78.4.0.tar.bz2
+Source1  : http://ftp.mozilla.org/pub/thunderbird/releases/78.4.0/source/thunderbird-78.4.0.source.tar.xz
 Source2  : thunderbird.desktop
 Source3  : thunderbird.sh
 Summary  : Thunderbird mail client
