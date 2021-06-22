@@ -1,9 +1,9 @@
 Name     : thunderbird
 Version  : ##VERSION##
-Release  : 1
-URL      : http://ftp.mozilla.org/pub/thunderbird/releases/##VERSION##/linux-x86_64/en-US/thunderbird-##VERSION##.tar.bz2
-Source0  : http://ftp.mozilla.org/pub/thunderbird/releases/##VERSION##/linux-x86_64/en-US/thunderbird-##VERSION##.tar.bz2
-Source1  : http://ftp.mozilla.org/pub/thunderbird/releases/##VERSION##/source/thunderbird-##VERSION##.source.tar.xz
+Release  : ##RELEASE##
+URL      : https://archive.mozilla.org/pub/thunderbird/releases/##VERSION##/linux-x86_64/en-US/thunderbird-##VERSION##.tar.bz2
+Source0  : https://archive.mozilla.org/pub/thunderbird/releases/##VERSION##/linux-x86_64/en-US/thunderbird-##VERSION##.tar.bz2
+Source1  : https://archive.mozilla.org/pub/thunderbird/releases/##VERSION##/source/thunderbird-##VERSION##.source.tar.xz
 Source2  : thunderbird.desktop
 Source3  : thunderbird.sh
 Summary  : Thunderbird mail client
