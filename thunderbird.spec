@@ -1,6 +1,6 @@
 Name     : thunderbird
 Version  : 91.2.0
-Release  : 13
+Release  : 14
 URL      : https://archive.mozilla.org/pub/thunderbird/releases/91.2.0/linux-x86_64/en-US/thunderbird-91.2.0.tar.bz2
 Source0  : https://archive.mozilla.org/pub/thunderbird/releases/91.2.0/linux-x86_64/en-US/thunderbird-91.2.0.tar.bz2
 Source1  : https://archive.mozilla.org/pub/thunderbird/releases/91.2.0/source/thunderbird-91.2.0.source.tar.xz
