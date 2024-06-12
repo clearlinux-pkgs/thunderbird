@@ -1,9 +1,9 @@
 Name     : thunderbird
-Version  : 125.0
-Release  : 93
-URL      : https://archive.mozilla.org/pub/thunderbird/releases/125.0/linux-x86_64/en-US/thunderbird-125.0.tar.bz2
-Source0  : https://archive.mozilla.org/pub/thunderbird/releases/125.0/linux-x86_64/en-US/thunderbird-125.0.tar.bz2
-Source1  : https://archive.mozilla.org/pub/thunderbird/releases/125.0/source/thunderbird-125.0.source.tar.xz
+Version  : 127.0
+Release  : 94
+URL      : https://archive.mozilla.org/pub/thunderbird/releases/127.0/linux-x86_64/en-US/thunderbird-127.0.tar.bz2
+Source0  : https://archive.mozilla.org/pub/thunderbird/releases/127.0/linux-x86_64/en-US/thunderbird-127.0.tar.bz2
+Source1  : https://archive.mozilla.org/pub/thunderbird/releases/127.0/source/thunderbird-127.0.source.tar.xz
 Source2  : thunderbird.desktop
 Source3  : thunderbird.sh
 Summary  : Thunderbird mail client
