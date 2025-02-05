@@ -46,7 +46,7 @@ install -D -m 0644 default128.png %{buildroot}/usr/share/icons/hicolor/256x256/a
 
 # Install stub
 mkdir -p  %{buildroot}/usr/share/thunderbird-stub/
-bunzip2 -c %{SOURCE0} > %{buildroot}/usr/share/thunderbird-stub/thunderbird-%{version}.tar
+xz -d %{SOURCE0} > %{buildroot}/usr/share/thunderbird-stub/thunderbird-%{version}.tar
 
 
 # Desktop launcher
