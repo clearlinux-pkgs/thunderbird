@@ -46,8 +46,15 @@ install -D -m 0644 default128.png %{buildroot}/usr/share/icons/hicolor/256x256/a
 
 # Install stub
 mkdir -p  %{buildroot}/usr/share/thunderbird-stub/
-xz -cd %{SOURCE0} > %{buildroot}/usr/share/thunderbird-stub/thunderbird-%{version}.tar
-
+case %{SOURCE0} in
+  *.tar.bz2)
+    bunzip2 -c %{SOURCE0} > %{buildroot}/usr/share/thunderbird-stub/thunderbird-%{version}.tar
+    ;;
+  *.tar.xz)
+    xz -d -c %{SOURCE0} > %{buildroot}/usr/share/thunderbird-stub/thunderbird-%{version}.tar
+    ;;
+esac
+zstd -z --rm -19 --rsyncable %{buildroot}/usr/share/thunderbird-stub/thunderbird-%{version}.tar
 
 # Desktop launcher
 install -D -m 00644 %{SOURCE2} %{buildroot}/usr/share/applications/thunderbird.desktop
@@ -61,7 +68,7 @@ sed -i %{buildroot}/usr/bin/thunderbird -e 's/\#\#VERSION\#\#/%{version}/g'
 %files
 %defattr(-,root,root,-)
 /usr/bin/thunderbird
-/usr/share/thunderbird-stub/thunderbird-%{version}.tar
+/usr/share/thunderbird-stub/thunderbird-%{version}.tar.zst
 /usr/share/applications/thunderbird.desktop
 /usr/share/icons/hicolor/16x16/apps/thunderbird.png
 /usr/share/icons/hicolor/22x22/apps/thunderbird.png
