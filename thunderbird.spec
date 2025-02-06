@@ -1,6 +1,6 @@
 Name     : thunderbird
 Version  : 135.0
-Release  : 104
+Release  : 105
 URL      : https://archive.mozilla.org/pub/thunderbird/releases/135.0/linux-x86_64/en-US/thunderbird-135.0.tar.xz
 Source0  : https://archive.mozilla.org/pub/thunderbird/releases/135.0/linux-x86_64/en-US/thunderbird-135.0.tar.xz
 Source1  : https://archive.mozilla.org/pub/thunderbird/releases/135.0/source/thunderbird-135.0.source.tar.xz
@@ -46,7 +46,7 @@ install -D -m 0644 default128.png %{buildroot}/usr/share/icons/hicolor/256x256/a
 
 # Install stub
 mkdir -p  %{buildroot}/usr/share/thunderbird-stub/
-xz -d %{SOURCE0} > %{buildroot}/usr/share/thunderbird-stub/thunderbird-%{version}.tar
+xz -cd %{SOURCE0} > %{buildroot}/usr/share/thunderbird-stub/thunderbird-%{version}.tar
 
 
 # Desktop launcher
