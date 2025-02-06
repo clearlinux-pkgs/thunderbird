@@ -1,6 +1,6 @@
 Name     : thunderbird
 Version  : 135.0
-Release  : 105
+Release  : 106
 URL      : https://archive.mozilla.org/pub/thunderbird/releases/135.0/linux-x86_64/en-US/thunderbird-135.0.tar.xz
 Source0  : https://archive.mozilla.org/pub/thunderbird/releases/135.0/linux-x86_64/en-US/thunderbird-135.0.tar.xz
 Source1  : https://archive.mozilla.org/pub/thunderbird/releases/135.0/source/thunderbird-135.0.source.tar.xz
