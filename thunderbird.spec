@@ -1,6 +1,6 @@
 Name     : thunderbird
 Version  : 136.0
-Release  : 108
+Release  : 109
 URL      : https://archive.mozilla.org/pub/thunderbird/releases/136.0/linux-x86_64/en-US/thunderbird-136.0.tar.xz
 Source0  : https://archive.mozilla.org/pub/thunderbird/releases/136.0/linux-x86_64/en-US/thunderbird-136.0.tar.xz
 Source1  : https://archive.mozilla.org/pub/thunderbird/releases/136.0/source/thunderbird-136.0.source.tar.xz
