@@ -7,7 +7,7 @@ LFILE="${HOME}/thunderbird/thunderbird"
 FDIR="${HOME}/thunderbird"
 
 if [[ -x "${LFILE}" ]] ; then
-    exec "${LFILE}" $*
+    exec "${LFILE}" "$@"
     exit 0
 fi
 
@@ -23,4 +23,4 @@ fi
 cd "${HOME}"
 tar xf "${SFILE}"
 
-exec "${LFILE}" $*
+exec "${LFILE}" "$@"
